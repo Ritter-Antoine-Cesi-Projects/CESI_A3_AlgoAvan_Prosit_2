@@ -83,7 +83,7 @@ execution_times = []
 num_cities = []
 
 # Loop to generate graphs of different sizes and measure the execution time
-for n in range(2, 9):
+for n in range(2, 10):
     # Generate a graph of n cities
     graph = generate_graph(n)
     # Record the start time
